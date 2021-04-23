@@ -11,6 +11,15 @@ Boilerplate for using TypeScript with Node.js
 5.  Run `npm build` to compile the example app.
 6.  Run `npm start` to start the example app.
 
+## Features
+
+- Express.js web server configuration
+- MVC pattern
+- MongoDB connectivity
+- Winston logging
+- Eslint and Prettier
+- Enviorment variable setup
+
 ## License
 
 This project is licensed under the terms of the [MIT](https://choosealicense.com/licenses/mit/) license.
