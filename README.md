@@ -1,6 +1,6 @@
 # TS Express Boilerplate
 
-Boilerplate for using TypeScript with Express
+Boilerplate for using TypeScript with Node.js
 
 ## Quick start
 
