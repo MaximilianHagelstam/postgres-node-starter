@@ -10,6 +10,7 @@ The purpose of this repository is to simplify and speed up the process of starti
 - [Dependencies](#dependencies)
   - [`dependencies`](#dependencies)
   - [`devDependencies`](#devdependencies)
+- [Scripts](#scripts)
 - [License](#license)
 
 # Pre-reqs
@@ -27,11 +28,22 @@ To build and run this app locally you will need to install [Node.js](https://nod
 
 # Features
 
-- Express.js web server with MVC
+- Express.js server
 - MongoDB connectivity
+- Supertest and Jest testing
 - Winston logger
 - ESLint and Prettier
-- Enviorment variable setup
+- Enviorment variables
+
+# Scripts
+
+| Script        | Description                                  |
+| ------------- | -------------------------------------------- |
+| npm start     | Run compiled JavaScript build in production  |
+| npm run dev   | Run TypeScript source code in development    |
+| npm run build | Compile TypeScript source code to JavaScript |
+| npm run test  | Run Jest tests                               |
+| npm run lint  | Find and fix ESLint problems                 |
 
 # Dependencies
 
