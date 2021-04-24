@@ -37,11 +37,12 @@ To build and run this app locally you will need to install [Node.js](https://nod
 
 ## `dependencies`
 
-| Package | Description                                 |
-| ------- | ------------------------------------------- |
-| dotenv  | Loads environment variables from .env file. |
-| express | Node.js web framework.                      |
-| winston | Logging library                             |
+| Package  | Description                                 |
+| -------- | ------------------------------------------- |
+| dotenv   | Loads environment variables from .env file. |
+| express  | Node.js web framework.                      |
+| winston  | Logging library                             |
+| mongoose | MongoDB ODM                                 |
 
 ## `devDependencies`
 
