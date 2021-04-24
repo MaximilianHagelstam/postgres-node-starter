@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MaximilianHagelstam/ts-node-boilerplate.git"
+    "url": "git+https://github.com/MaximilianHagelstam/ts-node-starter.git"
   },
-  "homepage": "https://github.com/MaximilianHagelstam/ts-node-boilerplate#readme",
+  "homepage": "https://github.com/MaximilianHagelstam/ts-node-starter#readme",
   "bugs": {
-    "url": "https://github.com/MaximilianHagelstam/ts-node-boilerplate/issues"
+    "url": "https://github.com/MaximilianHagelstam/ts-node-starter/issues"
   },
   "keywords": [
     "typescript",
