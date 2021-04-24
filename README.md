@@ -14,10 +14,9 @@ Boilerplate for using TypeScript with Node.js
 ## Features
 
 - Express.js web server with MVC
-- PostgreSQL connectivity
-- Docker configuration
-- Winston logging
-- Eslint and Prettier
+- MongoDB connectivity
+- Winston logger
+- ESLint and Prettier
 - Enviorment variable setup
 
 ## License

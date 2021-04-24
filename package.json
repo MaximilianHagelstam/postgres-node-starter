@@ -1,14 +1,30 @@
 {
-  "name": "ts-express-boilerplate",
+  "name": "ts-node-starter",
   "version": "1.0.0",
-  "description": "Boilerplate for using TypeScript with Express",
+  "description": "TypeScript Node.js Starter",
   "main": "dist/server.js",
   "scripts": {
     "start": "export NODE_ENV=production&&node dist/server.js",
     "dev": "export NODE_ENV=development&&nodemon src/server.ts",
-    "build": "tsc"
+    "build": "rm -rf dist&&tsc",
+    "lint": "eslint \"**/*.{js,ts}\" --quiet --fix"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaximilianHagelstam/ts-node-boilerplate.git"
+  },
+  "homepage": "https://github.com/MaximilianHagelstam/ts-node-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/MaximilianHagelstam/ts-node-boilerplate/issues"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "express",
+    "mongodb",
+    "eslint",
+    "prettier"
+  ],
   "author": "Maximilian Hagelstam",
   "license": "MIT",
   "devDependencies": {
