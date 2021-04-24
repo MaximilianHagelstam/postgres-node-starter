@@ -33,6 +33,8 @@ To build and run this app locally you will need to install [Node.js](https://nod
 - ESLint and Prettier
 - Enviorment variable setup
 
+# Dependencies
+
 ## `dependencies`
 
 | Package | Description                                 |
