@@ -8,8 +8,8 @@ The purpose of this repository is to simplify and speed up the process of starti
 - [Getting started](#getting-started)
 - [Features](#features)
 - [Dependencies](#dependencies)
-  - [`dependencies`](#dependencies)
-  - [`devDependencies`](#devdependencies)
+  - [dependencies](#dependencies)
+  - [devDependencies](#devdependencies)
 - [Scripts](#scripts)
 - [License](#license)
 
@@ -37,17 +37,17 @@ To build and run this app locally you will need to install [Node.js](https://nod
 
 # Scripts
 
-| Script        | Description                                  |
-| ------------- | -------------------------------------------- |
-| npm start     | Run compiled JavaScript build in production  |
-| npm run dev   | Run TypeScript source code in development    |
-| npm run build | Compile TypeScript source code to JavaScript |
-| npm run test  | Run Jest tests                               |
-| npm run lint  | Find and fix ESLint problems                 |
+| Script          | Description                                  |
+| --------------- | -------------------------------------------- |
+| `npm start`     | Run compiled JavaScript build in production  |
+| `npm run dev`   | Run TypeScript source code in development    |
+| `npm run build` | Compile TypeScript source code to JavaScript |
+| `npm run test`  | Run Jest tests                               |
+| `npm run lint`  | Find and fix ESLint problems                 |
 
 # Dependencies
 
-## `dependencies`
+## dependencies
 
 | Package  | Description                                |
 | -------- | ------------------------------------------ |
@@ -56,7 +56,7 @@ To build and run this app locally you will need to install [Node.js](https://nod
 | winston  | Logging library                            |
 | mongoose | MongoDB ODM                                |
 
-## `devDependencies`
+## devDependencies
 
 | Package                | Description                                                            |
 | ---------------------- | ---------------------------------------------------------------------- |
