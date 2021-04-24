@@ -1,9 +1,10 @@
 import express from "express";
 import dotenv from "dotenv";
 
-import * as homeController from "./controllers/home";
-
 dotenv.config();
+
+// Controllers
+import * as homeController from "./controllers/home";
 
 const app = express();
 
