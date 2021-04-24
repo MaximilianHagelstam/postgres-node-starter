@@ -37,24 +37,27 @@ To build and run this app locally you will need to install [Node.js](https://nod
 
 ## `dependencies`
 
-| Package  | Description                                 |
-| -------- | ------------------------------------------- |
-| dotenv   | Loads environment variables from .env file. |
-| express  | Node.js web framework.                      |
-| winston  | Logging library                             |
-| mongoose | MongoDB ODM                                 |
+| Package  | Description                                |
+| -------- | ------------------------------------------ |
+| dotenv   | Loads environment variables from .env file |
+| express  | Node.js web framework                      |
+| winston  | Logging library                            |
+| mongoose | MongoDB ODM                                |
 
 ## `devDependencies`
 
-| Package                | Description                                                          |
-| ---------------------- | -------------------------------------------------------------------- |
-| @types                 | Dependencies in this folder are `.d.ts` files used to provide types  |
-| nodemon                | Utility that automatically restarts node process when it crashes     |
-| ts-node                | Enables directly running TS files                                    |
-| eslint                 | Linter for JavaScript and TypeScript files                           |
-| typescript             | JavaScript compiler/type checker that boosts JavaScript productivity |
-| eslint-plugin-prettier | ESLint plugin for Prettier formatting                                |
-| prettier               | Code formatter                                                       |
+| Package                | Description                                                            |
+| ---------------------- | ---------------------------------------------------------------------- |
+| @types                 | Dependencies in this folder are `.d.ts` files used to provide types    |
+| nodemon                | Utility that automatically restarts node process when it crashes       |
+| ts-node                | Enables directly running TS files                                      |
+| eslint                 | Linter for JavaScript and TypeScript files                             |
+| typescript             | JavaScript compiler/type checker that boosts JavaScript productivity   |
+| eslint-plugin-prettier | ESLint plugin for Prettier formatting                                  |
+| prettier               | Code formatter                                                         |
+| ts-jest                | A preprocessor with sourcemap support to help use TypeScript with Jest |
+| supertest              | HTTP assertion library.                                                |
+| jest                   | Testing library for JavaScript.                                        |
 
 # License
 
