@@ -1,11 +1,9 @@
-import { Request, Response } from "express";
+import { Response } from "express";
 
 /**
  * Home page
  * @route GET /
  */
-const index = (req: Request, res: Response): void => {
-  res.send("home");
+export const index = (res: Response): void => {
+  res.send("Hello world");
 };
-
-export { index };

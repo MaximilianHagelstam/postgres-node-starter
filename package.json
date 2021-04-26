@@ -7,7 +7,7 @@
     "start": "export NODE_ENV=production&&node dist/server.js",
     "dev": "export NODE_ENV=development&&nodemon src/server.ts",
     "build": "rm -rf dist&&tsc",
-    "test": "jest --forceExit --coverage --verbose",
+    "test": "export NODE_ENV=test&&jest --forceExit --coverage --verbose",
     "lint": "eslint \"**/*.{js,ts}\" --quiet --fix"
   },
   "repository": {
