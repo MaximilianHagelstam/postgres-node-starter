@@ -2,7 +2,9 @@
 
 The purpose of this repository is to simplify and speed up the process of starting a new Node.js TypeScript project. A lot of this quick starts content was inspired or adapted from Microsofts [TypeScript Node Starter](https://github.com/microsoft/TypeScript-Node-Starter/).
 
-# Table of contents:
+<img src="https://github.com/MaximilianHagelstam/ts-node-starter/actions/workflows/nodejs.yml/badge.svg"></img>
+
+## Table of contents:
 
 - [Pre-reqs](#pre-reqs)
 - [Getting started](#getting-started)
@@ -13,11 +15,11 @@ The purpose of this repository is to simplify and speed up the process of starti
 - [Scripts](#scripts)
 - [License](#license)
 
-# Pre-reqs
+## Pre-reqs
 
 To build and run this app locally you will need to install [Node.js](https://nodejs.org/en/)
 
-# Getting started
+## Getting started
 
 1.  Make sure that you have Node.js and npm installed.
 2.  Clone this repo using `git clone --depth=1 https://github.com/MaximilianHagelstam/ts-node-starter.git <YOUR_PROJECT_NAME>`
@@ -27,7 +29,7 @@ To build and run this app locally you will need to install [Node.js](https://nod
 6.  Run `npm run build` to compile the example app.
 7.  Run `npm start` to start the example app.
 
-# Features
+## Features
 
 - Express.js server
 - MongoDB connectivity
@@ -37,19 +39,19 @@ To build and run this app locally you will need to install [Node.js](https://nod
 - ESLint and Prettier
 - Enviorment variables
 
-# Scripts
+## Scripts
 
 | Script          | Description                                  |
 | --------------- | -------------------------------------------- |
 | `npm start`     | Run compiled JavaScript build in production  |
 | `npm run dev`   | Run TypeScript source code in development    |
 | `npm run build` | Compile TypeScript source code to JavaScript |
-| `npm run test`  | Run Jest tests                               |
+| `npm test`      | Run test suites                              |
 | `npm run lint`  | Find and fix ESLint problems                 |
 
-# Dependencies
+## Dependencies
 
-## dependencies
+### dependencies
 
 | Package  | Description                                |
 | -------- | ------------------------------------------ |
@@ -58,7 +60,7 @@ To build and run this app locally you will need to install [Node.js](https://nod
 | winston  | Logging library                            |
 | mongoose | MongoDB ODM                                |
 
-## devDependencies
+### devDependencies
 
 | Package                | Description                                                            |
 | ---------------------- | ---------------------------------------------------------------------- |
@@ -73,6 +75,6 @@ To build and run this app locally you will need to install [Node.js](https://nod
 | supertest              | HTTP assertion library.                                                |
 | jest                   | Testing library for JavaScript.                                        |
 
-# License
+## License
 
 This project is licensed under the terms of the [MIT](https://choosealicense.com/licenses/mit/) license.
