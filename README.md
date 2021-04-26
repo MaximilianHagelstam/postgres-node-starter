@@ -2,7 +2,7 @@
 
 The purpose of this repository is to simplify and speed up the process of starting a new Node.js TypeScript project. A lot of this quick starts content was inspired or adapted from Microsofts [TypeScript Node Starter](https://github.com/microsoft/TypeScript-Node-Starter/).
 
-<img src="https://github.com/MaximilianHagelstam/ts-node-starter/actions/workflows/nodejs.yml/badge.svg"></img>
+[![Actions Status: build](https://github.com/MaximilianHagelstam/ts-node-starter/actions/workflows/nodejs.yml/badge.svg)](https://github.com/MaximilianHagelstam/ts-node-starter/actions?query=workflow%3A"node")
 
 ## Table of contents:
 
