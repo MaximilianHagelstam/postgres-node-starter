@@ -24,10 +24,11 @@ To build and run this app locally you will need to install [Node.js](https://nod
 1.  Make sure that you have Node.js and npm installed.
 2.  Clone this repo using `git clone --depth=1 https://github.com/MaximilianHagelstam/ts-node-starter.git <YOUR_PROJECT_NAME>`
 3.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
-4.  Add a `MONGO_URI` repository secret with db connection string.
-5.  Run `npm install` to install dependencies.
-6.  Run `npm run build` to compile the example app.
-7.  Run `npm start` to start the example app.
+4.  Make a `.env` it the root of your project as per `.env.example`.
+5.  Add a `MONGO_URI` repository secret with db connection string.
+6.  Run `npm install` to install dependencies.
+7.  Run `npm run build` to compile the example app.
+8.  Run `npm start` to start the example app.
 
 ## Features
 
