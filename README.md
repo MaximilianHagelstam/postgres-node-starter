@@ -2,7 +2,7 @@
 
 The purpose of this repository is to simplify and speed up the process of starting a new Node.js TypeScript project with MongoDB. A lot of this quick starts content was inspired or adapted from Microsofts [TypeScript Node Starter](https://github.com/microsoft/TypeScript-Node-Starter/).
 
-[![Actions Status: build](https://github.com/MaximilianHagelstam/ts-node-starter/actions/workflows/nodejs.yml/badge.svg)](https://github.com/MaximilianHagelstam/ts-node-starter/actions?query=workflow%3A"node")
+[![Actions Status: build](https://github.com/MaximilianHagelstam/ts-mongo-starter/actions/workflows/nodejs.yml/badge.svg)](https://github.com/MaximilianHagelstam/ts-mongo-starter/actions?query=workflow%3A"node")
 
 ## Table of contents:
 
@@ -22,7 +22,7 @@ To build and run this app locally you will need to install [Node.js](https://nod
 ## Getting started
 
 1.  Make sure that you have Node.js and npm installed.
-2.  Clone this repo using `git clone --depth=1 https://github.com/MaximilianHagelstam/ts-node-starter.git <YOUR_PROJECT_NAME>`
+2.  Clone this repo using `git clone --depth=1 https://github.com/MaximilianHagelstam/ts-mongo-starter.git <YOUR_PROJECT_NAME>`
 3.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
 4.  Make a `.env` it the root of your project as per `.env.example`.
 5.  Add a `MONGO_URI` repository secret with db connection string.
