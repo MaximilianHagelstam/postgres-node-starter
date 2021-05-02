@@ -1,7 +1,7 @@
 {
-  "name": "ts-node-starter",
+  "name": "ts-mongo-starter",
   "version": "1.0.0",
-  "description": "TypeScript Node.js Starter",
+  "description": "TypeScript MongoDB Starter",
   "main": "dist/server.js",
   "scripts": {
     "start": "export NODE_ENV=production&&node dist/server.js",
