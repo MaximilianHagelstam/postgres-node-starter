@@ -26,11 +26,9 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - name: npm install, build, and test
+      - name: npm install, build
         run: |
           npm ci
           npm run build
-          npm test
         env:
           CI: true
-          MONGO_URI: ${{ secrets.MONGO_URI }}
