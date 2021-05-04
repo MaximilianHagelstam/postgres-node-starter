@@ -12,8 +12,4 @@ const app = express();
  */
 app.get("/", homeController.index);
 
-/**
- * API routes.
- */
-
 export { app };
