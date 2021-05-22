@@ -2,14 +2,13 @@ import dotenv from "dotenv";
 dotenv.config();
 import express from "express";
 import logger from "./util/logger";
-import { sequelize } from "./config/database";
+import { db } from "./config/database";
 
 // Controllers
 import * as homeController from "./controllers/home";
 
 // Test db connection
-sequelize
-  .authenticate()
+db.authenticate()
   .then(() => {
     logger.info("Connected to db");
   })
