@@ -32,8 +32,7 @@ To build and run this app locally you will need to install [Node.js](https://nod
 ## Features
 
 - Express.js server
-- PostgreSQL connectivity
-- Sequelize
+- PostgreSQL with Sequelize
 - Winston logger
 - ESLint and Prettier
 - GitHub Actions
@@ -50,12 +49,14 @@ To build and run this app locally you will need to install [Node.js](https://nod
 
 ### dependencies
 
-| Package | Description                                |
-| ------- | ------------------------------------------ |
-| dotenv  | Loads environment variables from .env file |
-| express | Node.js web framework                      |
-| winston | Logging library                            |
-| pg      | PostgreSQL client for Node.js              |
+| Package   | Description                                              |
+| --------- | -------------------------------------------------------- |
+| dotenv    | Loads environment variables from .env file               |
+| express   | Node.js web framework                                    |
+| winston   | Logging library                                          |
+| pg        | PostgreSQL client for Node.js                            |
+| sequelize | Node.js ORM                                              |
+| pg-hstore | Serializing and deserializing JSON data to hstore format |
 
 ### devDependencies
 
