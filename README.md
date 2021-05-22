@@ -33,6 +33,7 @@ To build and run this app locally you will need to install [Node.js](https://nod
 
 - Express.js server
 - PostgreSQL connectivity
+- Sequelize
 - Winston logger
 - ESLint and Prettier
 - GitHub Actions
