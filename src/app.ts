@@ -18,6 +18,10 @@ db.authenticate()
 
 const app = express();
 
+// Configure express
+app.use(express.urlencoded());
+app.use(express.json());
+
 /**
  * Primary app routes.
  */
