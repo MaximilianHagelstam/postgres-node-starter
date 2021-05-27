@@ -32,18 +32,20 @@ To build and run this app locally you will need to install [Node.js](https://nod
 ## Features
 
 - Express.js server
-- PostgreSQL with Sequelize
+- PostgreSQL and Sequelize
 - Winston logger
-- ESLint and Prettier
+- Jest and Supertest setup
+- ESLint linting and Prettier formatting
 - GitHub Actions
+- Yarn
 
 ## Scripts
 
-| Script          | Description                                  |
-| --------------- | -------------------------------------------- |
-| `npm start`     | Run compiled JavaScript build in production  |
-| `npm run dev`   | Run TypeScript source code in development    |
-| `npm run build` | Compile TypeScript source code to JavaScript |
+| Script           | Description                                  |
+| ---------------- | -------------------------------------------- |
+| `yarn start`     | Run compiled JavaScript build in production  |
+| `yarn run dev`   | Run TypeScript source code in development    |
+| `yarn run build` | Compile TypeScript source code to JavaScript |
 
 ## Dependencies
 
