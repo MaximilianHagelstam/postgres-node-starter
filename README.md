@@ -32,11 +32,13 @@ To build and run this app locally you will need to install [Node.js](https://nod
 ## Features
 
 - Express.js server
-- PostgreSQL and Sequelize
-- Winston logger
+- PostgreSQL connectivity
+- Sequelize ORM
 - Jest and Supertest setup
-- ESLint linting and Prettier formatting
-- GitHub Actions
+- ESLint linting
+- Prettier formatting
+- Winston logger
+- GitHub Actions build process
 - Yarn
 
 ## Scripts
@@ -46,6 +48,7 @@ To build and run this app locally you will need to install [Node.js](https://nod
 | `yarn start`     | Run compiled JavaScript build in production  |
 | `yarn run dev`   | Run TypeScript source code in development    |
 | `yarn run build` | Compile TypeScript source code to JavaScript |
+| `yarn test`      | Run all jest test suites                     |
 
 ## Dependencies
 
@@ -62,15 +65,18 @@ To build and run this app locally you will need to install [Node.js](https://nod
 
 ### devDependencies
 
-| Package                | Description                                                          |
-| ---------------------- | -------------------------------------------------------------------- |
-| @types                 | Dependencies in this folder are `.d.ts` files used to provide types  |
-| nodemon                | Utility that automatically restarts node process when it crashes     |
-| ts-node                | Enables directly running TS files                                    |
-| eslint                 | Linter for JavaScript and TypeScript files                           |
-| typescript             | JavaScript compiler/type checker that boosts JavaScript productivity |
-| eslint-plugin-prettier | ESLint plugin for Prettier formatting                                |
-| prettier               | Code formatter                                                       |
+| Package                | Description                                                            |
+| ---------------------- | ---------------------------------------------------------------------- |
+| @types                 | Dependencies in this folder are `.d.ts` files used to provide types    |
+| nodemon                | Utility that automatically restarts node process when it crashes       |
+| ts-node                | Enables directly running TS files                                      |
+| eslint                 | Linter for JavaScript and TypeScript files                             |
+| typescript             | JavaScript compiler/type checker that boosts JavaScript productivity   |
+| eslint-plugin-prettier | ESLint plugin for Prettier formatting                                  |
+| prettier               | Code formatter                                                         |
+| jest                   | Testing library for JavaScript                                         |
+| supertest              | HTTP assertion library                                                 |
+| ts-jest                | A preprocessor with sourcemap support to help use TypeScript with Jest |
 
 ## License
 

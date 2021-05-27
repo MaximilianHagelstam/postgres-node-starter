@@ -23,12 +23,13 @@ jobs:
       - uses: actions/cache@v1
         with:
           path: ${{ steps.npm-cache.outputs.dir }}
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - name: npm install, build
+      - name: yarn install, build
         run: |
-          npm ci
-          npm run build
+          yarn install --frozen-lockfile
+          yarn run build
+          yarn test
         env:
           CI: true
