@@ -1,11 +1,11 @@
 import dotenv from "dotenv";
 dotenv.config();
 import express from "express";
-import logger from "./util/logger";
+import logger from "./config/logger";
 import { db } from "./config/database";
 
 // Controllers
-import * as homeController from "./controllers/home";
+import { homeRouter } from "./routes";
 
 // Test db connection
 db.authenticate()
@@ -22,9 +22,7 @@ const app = express();
 app.use(express.urlencoded());
 app.use(express.json());
 
-/**
- * Primary app routes.
- */
-app.get("/", homeController.index);
+// Routes
+app.use("/", homeRouter);
 
 export { app };
