@@ -38,7 +38,6 @@ To build and run this app locally you will need to install [Node.js](https://nod
 - ESLint linting
 - Prettier formatting
 - Winston logger
-- GitHub Actions build process
 - Yarn
 
 ## Scripts
