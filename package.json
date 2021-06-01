@@ -4,10 +4,10 @@
   "description": "TypeScript Node Starter",
   "main": "dist/server.js",
   "scripts": {
-    "start": "export NODE_ENV=production&&node dist/server.js",
-    "dev": "export NODE_ENV=development&&nodemon src/server.ts",
+    "start": "cross-env NODE_ENV=production node dist/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/server.ts",
     "build": "rm -rf dist&&tsc",
-    "test": "export NODE_ENV=test&&jest --forceExit --coverage --verbose"
+    "test": "cross-env NODE_ENV=test jest --forceExit --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,7 @@
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^4.20.0",
     "@typescript-eslint/parser": "^4.20.0",
+    "cross-env": "^7.0.3",
     "eslint": "^7.23.0",
     "eslint-plugin-prettier": "^3.4.0",
     "jest": "^27.0.1",

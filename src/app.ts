@@ -19,7 +19,7 @@ db.authenticate()
 const app = express();
 
 // Configure express
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // Routes
