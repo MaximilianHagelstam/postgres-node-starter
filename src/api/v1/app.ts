@@ -1,11 +1,11 @@
 import dotenv from "dotenv";
 dotenv.config();
 import express from "express";
-import logger from "./config/logger";
-import { db } from "./config/database";
+import logger from "../../config/logger";
+import { db } from "../../config/database";
 
 // Controllers
-import { homeRouter } from "./routes";
+import { postRouter } from "./routes";
 
 // Test db connection
 db.authenticate()
@@ -23,6 +23,6 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // Routes
-app.use("/", homeRouter);
+app.use("/api/v1/post", postRouter);
 
 export { app };
