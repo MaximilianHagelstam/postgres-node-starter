@@ -2,10 +2,7 @@ import { format, createLogger, transports } from "winston";
 
 const { combine, printf } = format;
 
-const logFormat = printf(
-  ({ level, message, timestamp, stack }) =>
-    `${timestamp} ${level}: ${stack || message}`
-);
+const logFormat = printf(({ level, message, timestamp, stack }) => `${timestamp} ${level}: ${stack || message}`);
 
 const logger = createLogger({
   level: "info",

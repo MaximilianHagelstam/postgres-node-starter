@@ -1,5 +1,5 @@
 import { Response, Request } from "express";
-import { app } from "./api/v1/app";
+import { app } from "./app";
 import logger from "./config/logger";
 
 const PORT: number = parseInt(<string>process.env.PORT) || 3000;

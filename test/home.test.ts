@@ -1,5 +1,5 @@
 import request from "supertest";
-import { app } from "../src/api/v1/app";
+import { app } from "../src/app";
 
 describe("GET /", () => {
   it("should return 200", (done) => {
