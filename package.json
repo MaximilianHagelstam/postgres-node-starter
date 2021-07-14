@@ -7,7 +7,7 @@
     "start": "cross-env NODE_ENV=production node dist/server.js",
     "dev": "cross-env NODE_ENV=development nodemon src/server.ts",
     "build": "rm -rf dist&&tsc",
-    "test": "cross-env NODE_ENV=test jest --forceExit --coverage --verbose"
+    "test": "cross-env NODE_ENV=test jest --forceExit --coverage --verbose --detectOpenHandles"
   },
   "repository": {
     "type": "git",
