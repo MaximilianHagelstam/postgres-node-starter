@@ -4,14 +4,16 @@ The purpose of this repository is to simplify and speed up the process of starti
 
 ## Table of contents:
 
-- [Pre-reqs](#pre-reqs)
-- [Getting started](#getting-started)
-- [Features](#features)
-- [Dependencies](#dependencies)
-  - [dependencies](#dependencies)
-  - [devDependencies](#devdependencies)
-- [Scripts](#scripts)
-- [License](#license)
+- [TS Node Starter](#ts-node-starter)
+  - [Table of contents:](#table-of-contents)
+  - [Pre-reqs](#pre-reqs)
+  - [Getting started](#getting-started)
+  - [Features](#features)
+  - [Scripts](#scripts)
+  - [Dependencies](#dependencies)
+    - [dependencies](#dependencies-1)
+    - [devDependencies](#devdependencies)
+  - [License](#license)
 
 ## Pre-reqs
 
@@ -33,6 +35,7 @@ To build and run this app locally you will need to install [Node.js](https://nod
 - PostgreSQL connectivity
 - Sequelize ORM
 - Jest and Supertest setup
+- Swagger Docs
 - ESLint linting
 - Prettier formatting
 - Winston logger
@@ -46,20 +49,22 @@ To build and run this app locally you will need to install [Node.js](https://nod
 | `yarn run dev`      | Run TypeScript source code in development    |
 | `yarn build`        | Compile TypeScript source code to JavaScript |
 | `yarn test`         | Run all jest test suites                     |
+| `yarn setup-db`     | Create all necessary tables                  |
 | `yarn run start-db` | Start PostgreSQL database                    |
 
 ## Dependencies
 
 ### dependencies
 
-| Package   | Description                                              |
-| --------- | -------------------------------------------------------- |
-| dotenv    | Loads environment variables from .env file               |
-| express   | Node.js web framework                                    |
-| winston   | Logging library                                          |
-| pg        | PostgreSQL client for Node.js                            |
-| sequelize | Node.js ORM                                              |
-| pg-hstore | Serializing and deserializing JSON data to hstore format |
+| Package            | Description                                |
+| ------------------ | ------------------------------------------ |
+| dotenv             | Loads environment variables from .env file |
+| express            | Node.js web framework                      |
+| winston            | Logging library                            |
+| pg                 | PostgreSQL client for Node.js              |
+| sequelize          | Node.js ORM                                |
+| swagger-ui-express | Serves Swagger UI document                 |
+| swagger-jsdoc      | Generates swagger specs based on jsDoc     |
 
 ### devDependencies
 
