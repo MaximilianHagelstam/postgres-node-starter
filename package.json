@@ -7,7 +7,9 @@
     "start": "cross-env NODE_ENV=production node dist/server.js",
     "dev": "cross-env NODE_ENV=development nodemon src/server.ts",
     "build": "tsc",
-    "test": "cross-env NODE_ENV=test jest --forceExit --coverage --verbose --detectOpenHandles"
+    "test": "cross-env NODE_ENV=test jest --forceExit --coverage --verbose --detectOpenHandles",
+    "start-db": "sudo service postgresql start",
+    "setup-db": "ts-node src/config/setupDb.ts"
   },
   "repository": {
     "type": "git",
@@ -49,7 +51,6 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "pg": "^8.6.0",
-    "pg-hstore": "^2.3.3",
     "sequelize": "^6.6.2",
     "winston": "^3.3.3"
   }
