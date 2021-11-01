@@ -1,11 +1,11 @@
-# TypeScript Express Starter
+# Postgres Node Starter
 
-TypeScript Express boilerplate
+Boilerplate for creating APIs with Node.js and PostgreSQL
 
 ## Getting started
 
 1.  Make sure that you have Node.js and npm installed.
-2.  Clone this repo using `git clone --depth=1 https://github.com/MaximilianHagelstam/ts-express-starter.git <YOUR_PROJECT_NAME>`
+2.  Clone this repo using `git clone --depth=1 https://github.com/MaximilianHagelstam/postgres-node-starter.git <YOUR_PROJECT_NAME>`
 3.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
 4.  Make a `.env` it the root of your project as per `.env.example`.
 5.  Run `yarn install` to install dependencies.
@@ -14,11 +14,11 @@ TypeScript Express boilerplate
 
 ## Features
 
--   Express.js
--   TypeORM PostgreSQL
--   Jest and Supertest
--   ESLint and Prettier
--   Winston and Morgan logging
+-   Express.js server config
+-   TypeScript setup
+-   PostgreSQL and Prisma CRUD
+-   Linting and formatting with ESlinst and Prettier
+-   Logging with Winston and Morgan
 
 ## License
 
