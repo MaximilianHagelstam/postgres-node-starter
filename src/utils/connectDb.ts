@@ -12,7 +12,15 @@ const connectDb = async () => {
             username: DB_USERNAME,
             password: DB_PASSWORD,
             logging: false,
-            synchronize: true
+            synchronize: true,
+            entities: ["src/entity/**/*.ts"],
+            migrations: ["src/migration/**/*.ts"],
+            subscribers: ["src/subscriber/**/*.ts"],
+            cli: {
+                entitiesDir: "src/entity",
+                migrationsDir: "src/migration",
+                subscribersDir: "src/subscriber"
+            }
         });
 
         logger.info("Connected to db");
