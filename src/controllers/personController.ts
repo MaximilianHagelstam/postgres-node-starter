@@ -31,8 +31,16 @@ const findId = async (req: Request, res: Response) => {
     return res.send(person);
 };
 
-const deleteId = (_req: Request, res: Response) => {
-    res.json({ message: "Hello team!" });
+const deleteId = async (req: Request, res: Response) => {
+    const id = Number(req.params.id);
+
+    if ((await Person.findOne({ id })) === undefined) {
+        return res.status(404).json({ error: "id not found" });
+    }
+
+    await Person.delete({ id });
+
+    return res.status(204).send();
 };
 
 const updateId = (_req: Request, res: Response) => {
