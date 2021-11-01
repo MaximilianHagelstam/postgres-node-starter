@@ -1,4 +1,4 @@
+logs
 node_modules
-dist
 .env
-coverage
+dist

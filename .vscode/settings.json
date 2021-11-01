@@ -1,8 +1,7 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "search.exclude": {
-    "**/node_modules": true,
-    "**/dist": true,
-    "**/coverage": true
-  }
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true
+    }
 }
