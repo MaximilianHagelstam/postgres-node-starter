@@ -16,7 +16,7 @@ Boilerplate for creating APIs with Node.js and PostgreSQL
 
 -   Express.js server config
 -   TypeScript setup
--   PostgreSQL and Prisma CRUD
+-   PostgreSQL and TypeORM CRUD
 -   Linting and formatting with ESlinst and Prettier
 -   Logging with Winston and Morgan
 
