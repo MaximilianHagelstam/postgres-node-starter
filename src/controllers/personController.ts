@@ -43,8 +43,22 @@ const deleteId = async (req: Request, res: Response) => {
     return res.status(204).send();
 };
 
-const updateId = (_req: Request, res: Response) => {
-    res.json({ message: "Hello team!" });
+const updateId = async (req: Request, res: Response) => {
+    const errors = validationResult(req);
+
+    if (!errors.isEmpty()) {
+        return res.status(400).json({ errors: errors.array() });
+    }
+
+    const id = Number(req.params.id);
+    const { name, number } = req.body;
+
+    if ((await Person.findOne({ id })) === undefined) {
+        return res.status(404).json({ error: "id not found" });
+    }
+
+    await Person.update({ id }, { name, number });
+    return res.status(204).send();
 };
 
 export { findAll, add, findId, deleteId, updateId };
